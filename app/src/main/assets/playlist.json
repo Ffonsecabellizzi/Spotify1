@@ -1,0 +1,95 @@
+{
+  "pages": 1,
+  "data": [
+    {
+      "id": 1,
+      "name_of_song": "Bohemian Rhapsody",
+      "number_of_followers": 1000,
+      "dummy_image_url": "https://m.media-amazon.com/images/I/61dk4SHy1CL._UF1000,1000_QL80_.jpg",
+      "songs": [
+        {
+          "name": "Bohemian Rhapsody",
+          "url": "http://example.com/song1.mp3",
+          "artist": "Queen"
+        },
+        {
+          "name": "Another One Bites the Dust",
+          "url": "http://example.com/song2.mp3",
+          "artist": "Queen"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name_of_song": "Hotel California",
+      "number_of_followers": 800,
+      "dummy_image_url": "https://i.ytimg.com/vi/yVkbwqKBO4E/maxresdefault.jpg",
+      "songs": [
+        {
+          "name": "Hotel California",
+          "url": "http://example.com/song3.mp3",
+          "artist": "Eagles"
+        },
+        {
+          "name": "Take It Easy",
+          "url": "http://example.com/song4.mp3",
+          "artist": "Eagles"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name_of_song": "Imagine",
+      "number_of_followers": 1200,
+      "dummy_image_url": "https://i.ytimg.com/vi/bNnFFKv_NyI/maxresdefault.jpg",
+      "songs": [
+        {
+          "name": "Imagine",
+          "url": "http://example.com/song5.mp3",
+          "artist": "John Lennon"
+        },
+        {
+          "name": "Jealous Guy",
+          "url": "http://example.com/song6.mp3",
+          "artist": "John Lennon"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name_of_song": "Hey Jude",
+      "number_of_followers": 1500,
+      "dummy_image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0C21ZgTMBMmbAuqHtWzFfIgHAIUIead50CA&usqp=CAU",
+      "songs": [
+        {
+          "name": "Hey Jude",
+          "url": "http://example.com/song7.mp3",
+          "artist": "The Beatles"
+        },
+        {
+          "name": "Let It Be",
+          "url": "http://example.com/song8.mp3",
+          "artist": "The Beatles"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name_of_song": "Smells Like Teen Spirit",
+      "number_of_followers": 900,
+      "dummy_image_url": "https://upload.wikimedia.org/wikipedia/en/3/3c/Smells_Like_Teen_Spirit.jpg",
+      "songs": [
+        {
+          "name": "Smells Like Teen Spirit",
+          "url": "http://example.com/song9.mp3",
+          "artist": "Nirvana"
+        },
+        {
+          "name": "Come as You Are",
+          "url": "http://example.com/song10.mp3",
+          "artist": "Nirvana"
+        }
+      ]
+    }
+  ]
+}
