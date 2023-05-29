@@ -9,12 +9,10 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.spotify.PlaylistResponse
-import com.example.spotify.R
 import com.google.gson.Gson
 import java.io.IOException
 
-class PlaylistFragment : Fragment() {
+class PlaylistFragment : Fragment(), PlaylistAdapter.OnPlaylistClickListener {
 
     private lateinit var adapter: PlaylistAdapter
     private lateinit var rvPlaylists: RecyclerView
@@ -28,7 +26,7 @@ class PlaylistFragment : Fragment() {
         rvPlaylists = view.findViewById(R.id.rv_playlists)
         val playlists = loadPlaylistsFromJson()
         if (playlists != null) {
-            adapter = PlaylistAdapter()
+            adapter = PlaylistAdapter(this)
             rvPlaylists.layoutManager = GridLayoutManager(context, 2)
             rvPlaylists.adapter = adapter
             adapter.submitList(playlists)
@@ -51,5 +49,13 @@ class PlaylistFragment : Fragment() {
             return ""
         }
         return jsonString
+    }
+
+    override fun onPlaylistClick(playlist: PlaylistResponse.Playlist) {
+        val songsFragment = SongsFragment(playlist)
+        requireActivity().supportFragmentManager.beginTransaction()
+            .replace(R.id.containerPlaylist, songsFragment)
+            .addToBackStack(null)
+            .commit()
     }
 }

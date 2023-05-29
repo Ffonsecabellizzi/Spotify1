@@ -16,6 +16,26 @@
           "name": "Another One Bites the Dust",
           "url": "http://example.com/song2.mp3",
           "artist": "Queen"
+        },
+        {
+          "name": "We Will Rock You",
+          "url": "http://example.com/song3.mp3",
+          "artist": "Queen"
+        },
+        {
+          "name": "Love of My Life",
+          "url": "http://example.com/song3.mp3",
+          "artist": "Queen"
+        },
+        {
+          "name": "We Are The Champions",
+          "url": "http://example.com/song4.mp3",
+          "artist": "Queen"
+        },
+        {
+          "name": "Under Pressure",
+          "url": "http://example.com/song5.mp3",
+          "artist": "Queen"
         }
       ]
     },
@@ -33,6 +53,26 @@
         {
           "name": "Take It Easy",
           "url": "http://example.com/song4.mp3",
+          "artist": "Eagles"
+        },
+        {
+          "name": "Take It to the Limit",
+          "url": "http://example.com/song5.mp3",
+          "artist": "Eagles"
+        },
+        {
+          "name": "Best of My Love",
+          "url": "http://example.com/song6.mp3",
+          "artist": "Eagles"
+        },
+        {
+          "name": "Desperado",
+          "url": "http://example.com/song7.mp3",
+          "artist": "Eagles"
+        },
+        {
+          "name": "Already Gone",
+          "url": "http://example.com/song8.mp3",
           "artist": "Eagles"
         }
       ]
@@ -52,6 +92,26 @@
           "name": "Jealous Guy",
           "url": "http://example.com/song6.mp3",
           "artist": "John Lennon"
+        },
+        {
+          "name": "Strawberry fields forever",
+          "url": "http://example.com/song7.mp3",
+          "artist": "John Lennon"
+        },
+        {
+          "name": "Lucy in the Sky with Diamonds",
+          "url": "http://example.com/song8.mp3",
+          "artist": "John Lennon"
+        },
+        {
+          "name": "A day in the life",
+          "url": "http://example.com/song9.mp3",
+          "artist": "John Lennon"
+        },
+        {
+          "name": "Give peace a chance",
+          "url": "http://example.com/song10.mp3",
+          "artist": "John Lennon"
         }
       ]
     },
@@ -70,6 +130,26 @@
           "name": "Let It Be",
           "url": "http://example.com/song8.mp3",
           "artist": "The Beatles"
+        },
+        {
+          "name": "Here comes the sun",
+          "url": "http://example.com/song9.mp3",
+          "artist": "The Beatles"
+        },
+        {
+          "name": "Yesterday",
+          "url": "http://example.com/song10.mp3",
+          "artist": "The Beatles"
+        },
+        {
+          "name": "Help",
+          "url": "http://example.com/song11.mp3",
+          "artist": "The Beatles"
+        },
+        {
+          "name": "All you need is love",
+          "url": "http://example.com/song12.mp3",
+          "artist": "The Beatles"
         }
       ]
     },
@@ -87,6 +167,26 @@
         {
           "name": "Come as You Are",
           "url": "http://example.com/song10.mp3",
+          "artist": "Nirvana"
+        },
+        {
+          "name": "Love Buzz",
+          "url": "http://example.com/song11.mp3",
+          "artist": "Nirvana"
+        },
+        {
+          "name": "About a Girl",
+          "url": "http://example.com/song12.mp3",
+          "artist": "Nirvana"
+        },
+        {
+          "name": "Negative Creep",
+          "url": "http://example.com/song13.mp3",
+          "artist": "Nirvana"
+        },
+        {
+          "name": "Territorial Pissings",
+          "url": "http://example.com/song14.mp3",
           "artist": "Nirvana"
         }
       ]

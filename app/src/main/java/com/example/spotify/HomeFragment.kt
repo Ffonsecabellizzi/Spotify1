@@ -12,8 +12,10 @@ import com.example.spotify.R
 import com.google.gson.Gson
 import java.io.IOException
 import java.io.InputStream
+import com.example.spotify.PlaylistAdapter.OnPlaylistClickListener
 
-class HomeFragment : Fragment() {
+
+class HomeFragment : Fragment(), PlaylistAdapter.OnPlaylistClickListener{
     private lateinit var playlistAdapter: PlaylistAdapter
 
     override fun onCreateView(
@@ -29,12 +31,20 @@ class HomeFragment : Fragment() {
         val recyclerView = view.findViewById<RecyclerView>(R.id.recyclerView)
         recyclerView.layoutManager = GridLayoutManager(this.context, 2)
 
-        playlistAdapter = PlaylistAdapter()
+        playlistAdapter = PlaylistAdapter(this)
         recyclerView.adapter = playlistAdapter
 
         // Use your method to load playlists from JSON
         val playlists = loadPlaylistsFromJson()
         playlistAdapter.submitList(playlists)
+    }
+
+    override fun onPlaylistClick(playlist: PlaylistResponse.Playlist) {
+        val songsFragment = SongsFragment(playlist)
+        requireActivity().supportFragmentManager.beginTransaction()
+            .replace(R.id.containerPlaylist, songsFragment)
+            .addToBackStack(null)
+            .commit()
     }
 
     private fun loadPlaylistsFromJson(): List<PlaylistResponse.Playlist> {

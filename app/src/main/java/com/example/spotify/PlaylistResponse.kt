@@ -17,6 +17,8 @@ data class PlaylistResponse(
         val songs: List<Song>
     ) {
         data class Song(
+            @SerializedName("dummy_image_url")
+            val dummyImageUrl: String,
             val artist: String,
             val name: String,
             val url: String
